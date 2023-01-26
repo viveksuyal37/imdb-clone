@@ -1,0 +1,23 @@
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error img{
+    width: 30%;
+}
+
+@media screen and (max-width:800px) {
+
+    .error{ 
+        align-items: flex-start;
+    }
+
+    .error img{
+        position: relative;
+        top: 20%;
+        width: 60%;
+    }
+}

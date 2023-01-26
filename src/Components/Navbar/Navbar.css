@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 5px 20px;
+}
+
+.nav-logo {
+  max-width: 75px;
+  max-height: 45px;
+  border-radius: 5%;
+}
+.nav-list {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.nav-list a:hover {
+  transition: all 0.4s ease-out;
+}
+.nav-list a:hover {
+  color: rgb(255, 217, 0);
+}
+
+/* //Device Breakpoints */
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    opacity: 0.75;
+  }
+  .nav-list {
+    gap: 0.7rem;
+  }
+}
